@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>Maltat.RedSmsService</PackageId>
+		<PackageVersion> 1.0.0</PackageVersion>
+		<Authors>AKhokhlove</Authors>
+		<Description>Пакет для удобной работы с API сервиса SMS-рассылок RedSms. Отправка и получение SMS-сообщений, управление рассылками и статусами доставки.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>sms,redsms,maltat</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.10" />
+		<PackageReference Include="Refit" Version="8.0.0" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+</Project>
