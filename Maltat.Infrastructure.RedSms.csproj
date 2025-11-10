@@ -11,6 +11,7 @@
 		<Description>Пакет для удобной работы с API сервиса SMS-рассылок RedSms. Отправка и получение SMS-сообщений, управление рассылками и статусами доставки.</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageTags>sms,redsms,maltat</PackageTags>
+		<RepositoryUrl>https://github.com/Khokhlove/Maltat.Infrastructure.RedSms</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
